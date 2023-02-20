@@ -2,14 +2,13 @@
   "name": "nevermore-game-template",
   "version": "1.0.0",
   "description": "Template repository for a Nevermore game.",
-  "author": "unrooot",
+  "author": "Bryan Gallardo",
   "license": "MIT",
   "dependencies": {
-    "@quenty/loader": "^6.0.0",
+    "@quenty/loader": "^6.0.1",
     "@quenty/servicebag": "^6.0.0"
   },
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }

@@ -5,8 +5,8 @@
   "author": "Bryan Gallardo",
   "license": "MIT",
   "dependencies": {
-    "@quenty/loader": "^6.0.1",
-    "@quenty/servicebag": "^6.0.0"
+    "@quenty/loader": "^6.1.0",
+    "@quenty/servicebag": "^6.5.0"
   },
   "main": "index.js",
   "scripts": {

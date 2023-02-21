@@ -5,6 +5,7 @@ local GameServiceServer = {}
 function GameServiceServer:Init(serviceBag)
 	self._serviceBag = assert(serviceBag, "No serviceBag")
 
+	self._serviceBag:GetService(require("ExampleService"))
 	-- self._serviceBag:GetService(require("ServiceName"))
 end
 

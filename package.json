@@ -5,8 +5,19 @@
   "author": "Bryan Gallardo",
   "license": "MIT",
   "dependencies": {
+    "@quenty/adorneeutils": "^3.0.0",
+    "@quenty/clienttranslator": "^8.10.0",
+    "@quenty/ik": "^9.13.0",
     "@quenty/loader": "^6.1.0",
-    "@quenty/servicebag": "^6.5.0"
+    "@quenty/maid": "^2.4.0",
+    "@quenty/octree": "^6.2.0",
+    "@quenty/ragdoll": "^9.12.0",
+    "@quenty/rx": "^7.5.0",
+    "@quenty/rxbinderutils": "^8.8.0",
+    "@quenty/servicebag": "^6.5.0",
+    "@quenty/statestack": "^8.5.0",
+    "@quenty/tie": "^4.8.0",
+    "@quenty/timesyncservice": "^7.2.0"
   },
   "main": "index.js",
   "scripts": {

@@ -1,12 +1,15 @@
 --[=[
-	@class GameServiceClient
+	@Service ClientStarter
+	
+	This is where all your client services start.
 ]=]
 
 local require = require(script.Parent.loader).load(script)
 
-local GameServiceClient = {}
+local ClientStarter = {}
+ClientStarter.ServiceName = "ClientStarter"
 
-function GameServiceClient:Init(serviceBag)
+function ClientStarter:Init(serviceBag)
 	self._serviceBag = assert(serviceBag, "No serviceBag")
 
 	-- External
@@ -17,4 +20,4 @@ function GameServiceClient:Init(serviceBag)
 	-- self._serviceBag:GetService(require("ServiceName"))
 end
 
-return GameServiceClient
+return ClientStarter

@@ -1,12 +1,15 @@
 --[=[
-	@class GameServiceServer
+	@class ServerStarter
+
+	This is where all your server services start.
 ]=]
 
 local require = require(script.Parent.loader).load(script)
 
-local GameServiceServer = {}
+local ServerStarter = {}
+ServerStarter.ServiceName = "ServerStarter"
 
-function GameServiceServer:Init(serviceBag)
+function ServerStarter:Init(serviceBag)
 	self._serviceBag = assert(serviceBag, "No serviceBag")
 
 	-- External
@@ -17,4 +20,4 @@ function GameServiceServer:Init(serviceBag)
 	-- self._serviceBag:GetService(require("ServiceName"))
 end
 
-return GameServiceServer
+return ServerStarter
